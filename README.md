@@ -14,7 +14,7 @@ Añade platos con nombre, descripción, precio e imagen.
 
 # Instala las dependencias:
 
-# bash
+''' bash '''
 Copiar código
 npm install  
 Inicia la aplicación:
