@@ -20,7 +20,7 @@ npm install
 Inicia la aplicación:
 
 ``` bash 
-npm start
+npm run dev
 ``` 
 ¡Abre http://localhost:3000 y listo! 🎉
 
