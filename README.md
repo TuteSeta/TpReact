@@ -19,8 +19,7 @@ npm install
 ```
 Inicia la aplicación:
 
-``` bash
-Copiar código
+``` bash 
 npm start
 ``` 
 ¡Abre http://localhost:3000 y listo! 🎉
