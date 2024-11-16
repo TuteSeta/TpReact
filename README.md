@@ -1,50 +1,60 @@
-# React + TypeScript + Vite
+README: Proyecto de Menú Interactivo en React 🍽️
+Descripción
+Este proyecto es una aplicación interactiva desarrollada en React para gestionar un menú de restaurante. Permite a los usuarios agregar, editar y eliminar platos del menú de manera dinámica. Cada plato incluye detalles como el nombre, descripción, precio e imagen.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Características
+Agregar platos: Los usuarios pueden añadir nuevos platos al menú.
+Editar platos: Posibilidad de modificar los detalles de un plato existente.
+Eliminar platos: Opción para remover platos del menú.
+Vista dinámica: Los cambios en el menú se reflejan en tiempo real.
+Interfaz intuitiva: Diseño amigable y responsivo para mejorar la experiencia del usuario.
+Estructura de Componentes
+El proyecto se organiza en varios componentes:
 
-Currently, two official plugins are available:
+App: Componente raíz que maneja el estado global del menú.
+MenuList: Muestra la lista de platos disponibles.
+MenuItem: Representa un plato individual con sus detalles y opciones para editar o eliminar.
+AddDishForm: Formulario para agregar un nuevo plato.
+EditDishForm: Formulario para editar un plato existente.
+Header: Encabezado con el título del restaurante o del menú.
+Footer: Información adicional o enlaces de contacto.
+Instalación
+Clona el repositorio:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+bash
+Copiar código
+git clone https://github.com/tu_usuario/menu-react.git
+Navega al directorio del proyecto:
 
-## Expanding the ESLint configuration
+bash
+Copiar código
+cd menu-react
+Instala las dependencias:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+bash
+Copiar código
+npm install
+Inicia el servidor de desarrollo:
 
-- Configure the top-level `parserOptions` property like this:
+bash
+Copiar código
+npm start
+La aplicación estará disponible en http://localhost:3000.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Uso
+Agregar un plato:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Completa el formulario con el nombre, descripción, precio e imagen.
+Haz clic en "Agregar".
+Editar un plato:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Haz clic en el botón de editar junto al plato.
+Modifica los campos deseados y guarda los cambios.
+Eliminar un plato:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Haz clic en el botón de eliminar junto al plato correspondiente.
+Tecnologías Utilizadas
+React: Biblioteca principal para la construcción de la interfaz de usuario.
+React Hooks: Para la gestión del estado y efectos.
+CSS Modules / Tailwind CSS: Estilización de componentes.
+PropTypes: Validación de propiedades de los componentes.
