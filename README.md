@@ -7,22 +7,14 @@ Visualiza todos los platos disponibles en tiempo real.
 ➕ Agregar platos nuevos
 Añade platos con nombre, descripción, precio e imagen.
 
-##📦 Instalación
+## 📦 Instalación
 ¡Ponte manos a la obra en pocos pasos!
 
-Clona el proyecto:
+# Descarga el proyecto:
 
-bash
-Copiar código
-git clone https://github.com/tu_usuario/menu-react.git  
-Accede al directorio:
+# Instala las dependencias:
 
-bash
-Copiar código
-cd menu-react  
-Instala las dependencias:
-
-bash
+# bash
 Copiar código
 npm install  
 Inicia la aplicación:
