@@ -14,8 +14,9 @@ Añade platos con nombre, descripción, precio e imagen.
 
 # Instala las dependencias:
 
-bash 
-npm install ''' 
+``` bash 
+npm install 
+```
 Inicia la aplicación:
 
 bash
