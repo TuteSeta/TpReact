@@ -4,6 +4,7 @@
 ## 🚀 Funcionalidades
 📋 Ver el menú completo
 Visualiza todos los platos disponibles en tiempo real.
+
 ➕ Agregar platos nuevos
 Añade platos con nombre, descripción, precio e imagen.
 
